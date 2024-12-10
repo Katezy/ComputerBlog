@@ -1,0 +1,77 @@
+body {
+    font-family: 'kanit', sans-serif; /* ใช้ฟอนต์ LINESeedSans */
+    font-weight: 400; /* น้ำหนัก Regular */
+  }
+
+  
+
+  .card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+  }
+  
+
+  /* Hero Section */
+.hero-section {
+    background: linear-gradient(45deg, #b71c1c, #000); /* Gradient สีแดง-ดำ */
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* ขอบมน */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* เพิ่มเงา */
+  }
+  
+  .hero-text h1 {
+    font-size: 2.5rem;
+    font-weight: 1000;
+  }
+  
+  .hero-text p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card h5 {
+    color: #e63946; /* สีแดง */
+  }
+  
+  .card a.btn {
+    background-color: #e63946;
+    border: none;
+  }
+  
+  .card a.btn:hover {
+    background-color: #d62828;
+  }
+  
+  
+
+
+/* ปรับขนาดภาพในกล่องสินค้า */
+.product-image {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* ปรับขนาดเมื่อ hover กล่องสินค้า */
+.card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+
+.card img {
+  height: 250px; /* เพิ่มขนาดภาพในกล่อง */
+  object-fit: cover;
+}

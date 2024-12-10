@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Computerx</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- SweetAlert CSS -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <div class="container">
+      <a class="navbar-brand text-danger fw-bold" href="#">Computerx</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="#join">Join</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero-section text-white py-5">
+    <div class="container d-flex align-items-center">
+      <!-- Left: Image -->
+      <div class="hero-image me-5">
+        <img src="image/q3.png" alt="Learning Illustration" class="img-fluid rounded shadow">
+      </div>
+      <!-- Right: Text -->
+      <div class="hero-text">
+        <h1>ซื้ออุปกรณ์<br>คอมพิวเตอร์กับ ComputerX</h1>
+        <p class="mb-4">ซื้อได้ในราคาถูก และเข้าถึงงาย</p>
+        <div>
+          <button class="btn btn-primary me-2">เริ่มต้นเลย</button>
+          <button class="btn btn-outline-light">เกี่ยวกับเรา</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+
+  <!-- Products Section -->
+<!-- Products Section -->
+<section id="products" class="py-5">
+  <div class="container text-center">
+    <h2 class="text-primary mb-4">สินค้าของเรา</h2>
+    <div class="row g-4">
+      <!-- สินค้าชิ้นที่ 1 -->
+      <div class="col-md-4">
+        <div class="card shadow-sm p-4">
+          <img src="image/hp1.jpg" alt="Product 1" class="img-fluid mb-3 rounded product-image">
+          <h5 class="mt-3">HEADSET (หูฟัง) HYPERX CLOUD STINGER 2</h5>
+          <p>• Headset Response : 10 Hz - 28000 Hz<br>
+            • Mic Response : 100 Hz - 15600 Hz</p>
+          <p class="text-danger fw-bold">1,690 บาท</p>
+          <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#productModal" data-bs-image="image/hp1.jpg">ดูรายละเอียด</button>
+        </div>
+      </div>
+
+      <!-- สินค้าชิ้นที่ 2 -->
+      <div class="col-md-4">
+        <div class="card shadow-sm p-4">
+          <img src="image/hp2.jpg" alt="Product 2" class="img-fluid mb-3 rounded product-image">
+          <h5 class="mt-3">HEADSET (หูฟัง) HYPERX CLOUD III (BLACK)</h5>
+          <p>• HyperX Signature Comfort and Durability<br>
+            • Angled 53mm Drivers, Tuned for Impeccable Audio
+           </p>
+          <p class="text-danger fw-bold">3,090 บาท</p>
+          <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#productModal" data-bs-image="image/hp2.jpg">ดูรายละเอียด</button>
+        </div>
+      </div>
+
+      <!-- สินค้าชิ้นที่ 3 -->
+      <div class="col-md-4">
+        <div class="card shadow-sm p-4">
+          <img src="image/hp3.jpg" alt="Product 3" class="img-fluid mb-3 rounded product-image">
+          <h5 class="mt-3">WIRELESS HEADSET (หูฟังไร้สาย) HYPERX CLOUD MINI (WHITE)</h5>
+          <p>• ระดับเสียงต่ำกว่า 85dB<br>
+            • คุณภาพเสียงที่เต็มอิ่ม<br>
+            • ไมโครโฟนบูมความทนทานสูงแบบพับเก็บได้</p>
+          <p class="text-danger fw-bold">1,890 บาท</p>
+          <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#productModal" data-bs-image="image/hp3.jpg">ดูรายละเอียด</button>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+          <div class="card shadow-sm p-4">
+            <img src="image/hp4.jpg" alt="Product 4" class="img-fluid mb-3 rounded product-image">
+            <h5 class="mt-3">KEYBOARD (คีย์บอร์ด) HYPERX ALLOY ORIGINS (BLACK) </h5>
+            <p>• HyperX Red Switch (Linear)<br>
+              • RGB LED<br>
+              • English / Thai Keycap</p>
+            <p class="text-danger fw-bold">3,290 บาท</p>
+            <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#productModal" data-bs-image="image/hp4.jpg">ดูรายละเอียด</button>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card shadow-sm p-4">
+            <img src="image/hp5.png" alt="Product 4" class="img-fluid mb-3 rounded product-image">
+            <h5 class="mt-3">MICROPHONE (ไมโครโฟน) HYPERX QUADCAST STANDALONE</h5>
+            <p>• Support : PC<BR>
+              • Frequency Response : 20 Hz - 20000 Hz</p>
+            <p class="text-danger fw-bold">4,390 บาท</p>
+            <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#productModal" data-bs-image="image/hp5.png">ดูรายละเอียด</button>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card shadow-sm p-4">
+            <img src="image/hp6.png" alt="Product 4" class="img-fluid mb-3 rounded product-image">
+            <h5 class="mt-3">WIRELESS MOUSE (เมาส์ไร้สาย) HYPERX PULSEFIRE HASTE 2 (WHITE)</h5>
+            <p>• Up to 26000 DPI<br>
+              • HyperX Switch up to 100 million clicking life
+            </p>
+            <p class="text-danger fw-bold">฿399</p>
+            <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#productModal" data-bs-image="image/hp6.png">ดูรายละเอียด</button>
+          </div>
+        </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Modal สำหรับดูภาพขนาดใหญ่ -->
+<div class="modal fade" id="productModal" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="productModalLabel">รายละเอียดสินค้า</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        <img src="" alt="Product Image" class="img-fluid" id="productImage">
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+
+  <hr style="margin-inline: 250px;">
+
+  <!-- Join Section -->
+  <section id="join" class="bg-gradient text-white text-center py-5">
+    <div class="container" style="color: black;">
+      <h2>สั่งซื้อเลย!</h2>
+      <p>สามารถสั่งซื้อได้ที่นี้เลย</p>
+      <button class="btn btn-warning mt-3"  id="buyNowBtn">สั่งซื้อ</button>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>© 2024 Katezy. All rights reserved.</p>
+  </footer>
+
+
+  <!-- Bootstrap JS -->
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
