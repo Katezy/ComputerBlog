@@ -9,6 +9,9 @@ A simple and ** omputerSite**
 - **Modal Sections**: Modal
 - **Sweetalert**: Popup Sweetalert
 
+## Screenshots
 
+### Main Interface
+![Main Interface](Screenshots/Computer.png)
 
 ---
