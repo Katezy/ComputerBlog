@@ -12,6 +12,6 @@ A simple and ** omputerSite**
 ## Screenshots
 
 ### Main Interface
-![Main Interface](Screenshots/Computer.png)
+![Main Interface](Computer.png)
 
 ---
